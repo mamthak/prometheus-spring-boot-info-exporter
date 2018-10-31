@@ -39,7 +39,7 @@ class JsonPathCollector(object):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Expose metrics bu jsonpath for configured url')
+    parser = argparse.ArgumentParser(description='Expose spring boot info metrics')
     parser.add_argument('config_file_path', help='Path of the config file')
     args = parser.parse_args()
     with open(args.config_file_path) as config_file:
